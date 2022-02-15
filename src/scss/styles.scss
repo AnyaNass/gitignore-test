@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Philosopher:ital,wght@1,700&display=swap');
+
+body{
+	font-family: "Open Sans";
+}
+.container{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+.feedback{
+	text-align: center;
+	h2{
+		font-size: 42px;
+		font-weight: 400;
+		color: #4e525d;
+	}
+	.feedback-item p{
+		font-size: 19px;
+		color: #4e525d;
+		width: 650px;
+	}
+	.feedback-item p ~ p{
+		font-size: 21px;
+		color: #9a8faf;
+	}
+}
+	

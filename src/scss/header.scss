@@ -1,0 +1,16 @@
+header{
+	border: 5px dashed pink;
+	@media (min-width: 992px) {
+		border: 5px dashed lightgreen;
+	}
+	h1{ 
+		font-size: 50px;
+		@media (min-width: 992px) {
+			font-weight: 300;
+		}
+	}
+
+}
+// body{
+// 	background: red;
+// }
